@@ -4,7 +4,7 @@ if (array_length(word_array) >= 16)
     obj_button_start.isActive = true; 
 	exit;
 }
-obj_button_start.isActive = false; 
+if !testMode obj_button_start.isActive = false; 
 
 if keyboard_check_pressed(vk_enter)
 {

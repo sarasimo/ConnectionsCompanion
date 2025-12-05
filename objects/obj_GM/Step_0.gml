@@ -14,7 +14,7 @@ if (mouse_check_button_released(mb_left))
 	with (dragged)
 	{
 		//if object is clicked and not moved
-	    if (x = last_x && y == last_y)
+	    if (x == last_x && y == last_y)
 		{
 		    //cycle through index 
 			col_index ++;

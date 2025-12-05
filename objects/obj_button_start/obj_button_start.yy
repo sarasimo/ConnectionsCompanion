@@ -8,7 +8,7 @@
   "name":"obj_button_start",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"txt","path":"objects/par_button/par_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Start\"",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"isActive","path":"objects/par_button/par_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"isActive","path":"objects/par_button/par_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"Objects",
