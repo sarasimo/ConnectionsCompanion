@@ -11,8 +11,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"par_button","path":"objects/par_button/par_button.yy",},"propertyId":{"name":"isActive","path":"objects/par_button/par_button.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Buttons",
+    "path":"folders/Buttons.yy",
   },
   "parentObjectId":{
     "name":"par_button",

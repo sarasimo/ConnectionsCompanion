@@ -12,8 +12,8 @@
   "name":"obj_input",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"ControlObjects",
+    "path":"folders/ControlObjects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,14 +32,14 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"col","filters":[],"listItems":[],"multiselect":false,"name":"col","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFF1922","varType":7,},
     {"$GMObjectProperty":"v2","%Name":"col2","filters":[],"listItems":[],"multiselect":false,"name":"col2","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"$FFFF9A19","varType":7,},
-    {"$GMObjectProperty":"v2","%Name":"testMode","filters":[],"listItems":[],"multiselect":false,"name":"testMode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"testMode","filters":[],"listItems":[],"multiselect":false,"name":"testMode","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cursor",
-    "path":"sprites/spr_cursor/spr_cursor.yy",
+    "name":"spr_border",
+    "path":"sprites/spr_border/spr_border.yy",
   },
   "spriteMaskId":null,
   "visible":true,

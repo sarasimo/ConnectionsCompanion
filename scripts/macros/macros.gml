@@ -1,0 +1,1 @@
+#macro GEMINI_API_KEY "AIzaSyBEy5Ui-D-RZp6t1lUWcCKwhT8tJyt7Dog"

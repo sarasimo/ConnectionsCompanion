@@ -12,7 +12,7 @@ draw_set_valign(fa_middle);
 //Draw input box
 var _w = window_get_width()/3; //set text box width
 draw_sprite_stretched(spr_stretch,0,x-_w/2,y-32,_w, 64);
-if (!obj_button_start.isActive) draw_text(x, y, keyboard_string);
+if (array_length(word_array) < 16) draw_text(x, y, keyboard_string);
 
 //Draw submitted words
 draw_set_valign(fa_top);

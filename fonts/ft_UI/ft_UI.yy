@@ -119,8 +119,8 @@
   "maintainGms1Font":false,
   "name":"ft_UI",
   "parent":{
-    "name":"Fonts",
-    "path":"folders/Fonts.yy",
+    "name":"Cards",
+    "path":"folders/Cards.yy",
   },
   "pointRounding":0,
   "ranges":[

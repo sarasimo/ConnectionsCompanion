@@ -1,4 +1,6 @@
 ///@description change colour
+
+
 switch (col_index)
 {
 	case 0: image_blend = c_white; break;
@@ -7,3 +9,4 @@ switch (col_index)
 	case 3: image_blend = col03; break;
 	case 4: image_blend = col04; break;
 }
+

@@ -11,8 +11,8 @@
   "name":"par_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Buttons",
+    "path":"folders/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

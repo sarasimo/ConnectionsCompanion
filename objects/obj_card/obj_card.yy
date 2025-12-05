@@ -12,8 +12,8 @@
   "name":"obj_card",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Cards",
+    "path":"folders/Cards.yy",
   },
   "parentObjectId":null,
   "persistent":false,

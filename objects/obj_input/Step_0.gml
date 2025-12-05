@@ -1,10 +1,12 @@
 ///@description populate array
-if (array_length(word_array) >= 16) 
+if (array_length(word_array) == 16) 
 {
     obj_button_start.isActive = true; 
 	exit;
 }
-if !testMode obj_button_start.isActive = false; 
+
+if (!testMode ) obj_button_start.isActive = false; 
+
 
 if keyboard_check_pressed(vk_enter)
 {
@@ -12,7 +14,7 @@ if keyboard_check_pressed(vk_enter)
 	var _ks = string_letters(keyboard_string) 
 	show_debug_message(array_length(word_array))
 	//
-	if (array_contains(word_array, keyboard_string)|| string_length(_ks)<= 2)
+	if (array_contains(word_array, keyboard_string)|| string_length(_ks) <= 2)
 	{
 	    keyboard_string = "";
 		exit;

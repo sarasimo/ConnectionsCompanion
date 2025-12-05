@@ -13,17 +13,19 @@ if (mouse_check_button_released(mb_left))
 {
 	with (dragged)
 	{
-		//if object is clicked and not moved
+		
+        //if object is clicked and not moved
 	    if (x == last_x && y == last_y)
 		{
 		    //cycle through index 
 			col_index ++;
-			if (col_index > 4) col_index = 1;
+			//if (col_index > 4) col_index = 1;
 			
 			//runs code switch to set card colour
 			alarm[0] = 1; 
 		}
 		
+        
 		var _t = collision_point(mouse_x,mouse_y, obj_card,0,true);
 		if (_t != noone) //if on top of other card
 		{
@@ -60,6 +62,8 @@ if (dragged != noone) with (dragged)
 	y = mouse_y + dy;
 }
 
+#region Colour change
+
 //right click on cards
 if (mouse_check_button_released(mb_right)) 
 {
@@ -68,6 +72,22 @@ if (mouse_check_button_released(mb_right))
 	_inst.alarm[0] = 1;
 }
 
-//sw = display_get_gui_width()/columns;
-//sh = display_get_gui_height()/rows;
+if !(mouse_wheel_up() || mouse_wheel_down()) exit;
+ 
+var _inst = collision_point(mouse_x,mouse_y, obj_card,0,0);   
+if (mouse_wheel_up())
+{
+    _inst.col_index -= 1; //go to next colour
+}
+
+if (mouse_wheel_down())
+{
+    _inst.col_index += 1; //go to previous color
+}
+
+_inst.col_index = clamp_cycle(_inst.col_index, 1, 4)
+_inst.alarm[0] = 1; //runs colour change code
+
+#endregion
+
 
